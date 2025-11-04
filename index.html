@@ -1,0 +1,2547 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO BÁSICO -->
+    <title>
+      Asesoría de Tesis en Montería y Cartagena | JHRoyett Research - Maestría y
+      Doctorado
+    </title>
+    <meta
+      name="description"
+      content="Asesoría profesional de tesis de maestría y doctorado en Montería y Cartagena. +600 casos exitosos, 24 años de experiencia. Investigador Minciencias. Consulta gratuita."
+    />
+    <meta
+      name="keywords"
+      content="asesoría tesis Montería, asesor tesis Cartagena, tesis maestría Colombia, tesis doctoral, asesoría investigación, metodología tesis, JHRoyett"
+    />
+    <meta name="author" content="JHRoyett Research" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://jhroyettresearch.com/" />
+
+    <!-- GEO TAGS -->
+    <meta name="geo.region" content="CO-COR" />
+    <meta name="geo.placename" content="Montería, Cartagena" />
+    <meta name="geo.position" content="8.7479;-75.8814" />
+    <meta name="ICBM" content="8.7479, -75.8814" />
+
+    <!-- OPEN GRAPH (Facebook, WhatsApp) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Asesoría de Tesis en Montería y Cartagena | JHRoyett Research"
+    />
+    <meta
+      property="og:description"
+      content="Asesoría profesional de tesis de maestría y doctorado. +600 casos exitosos, 24 años de experiencia."
+    />
+    <meta
+      property="og:image"
+      content="https://jhroyettresearch.com/imagenes/og-image.jpg"
+    />
+    <meta property="og:url" content="https://jhroyettresearch.com/" />
+    <meta property="og:site_name" content="JHRoyett Research" />
+    <meta property="og:locale" content="es_CO" />
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Asesoría de Tesis en Montería y Cartagena | JHRoyett Research"
+    />
+    <meta
+      name="twitter:description"
+      content="Asesoría profesional de tesis de maestría y doctorado. +600 casos exitosos."
+    />
+    <meta
+      name="twitter:image"
+      content="https://jhroyettresearch.com/imagenes/twitter-image.jpg"
+    />
+
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./imagenes/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./imagenes/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./imagenes/apple-touch-icon.png"
+    />
+
+    <!-- PRECONNECT para optimizar carga -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://unpkg.com" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome para iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Swiper JS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!-- SweetAlert2 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Custom AOS Override Styles -->
+    <style>
+      /* AOS Custom Duration and Easing */
+      [data-aos] {
+        pointer-events: auto;
+      }
+
+      /* Smooth transitions for AOS */
+      .aos-init {
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+      }
+
+      /* Prevent horizontal scrollbar from AOS animations */
+      body {
+        overflow-x: hidden;
+      }
+
+      /* Custom AOS animations for statistics */
+      @keyframes countUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Ensure AOS doesn't break mobile layout */
+      @media (max-width: 768px) {
+        [data-aos^="fade"][data-aos^="fade"] {
+          opacity: 1;
+        }
+
+        [data-aos^="zoom"][data-aos^="zoom"] {
+          opacity: 1;
+        }
+      }
+
+      /* Loading animation before AOS init */
+      body.aos-loading {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      body.aos-ready {
+        opacity: 1;
+      }
+
+      /* Stagger animations for grid items */
+      .service-card[data-aos-delay],
+      .benefit-item-v2[data-aos-delay],
+      .problem-card-v2[data-aos-delay] {
+        transition-duration: 0.6s !important;
+      }
+
+      /* Enhanced hero animations */
+      .hero-section [data-aos] {
+        transition-duration: 0.8s !important;
+      }
+
+      /* Smooth reveal for testimonials */
+      .testimonial-card {
+        transition: all 0.3s ease;
+      }
+
+      /* Fix for navigation z-index with AOS */
+      .navbar-custom {
+        z-index: 1050 !important;
+      }
+    </style>
+
+    <!-- SCHEMA MARKUP (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "JHRoyett Research",
+        "description": "Asesoría especializada en tesis de maestría y doctorado en Montería y Cartagena",
+        "url": "https://jhroyettresearch.com",
+        "logo": "https://jhroyettresearch.com/imagenes/Logo.png",
+        "image": "https://jhroyettresearch.com/imagenes/DSC_0023.webp",
+        "telephone": "+57-300-123-4567",
+        "email": "contacto@jhroyett.com",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Montería",
+            "addressRegion": "Córdoba",
+            "addressCountry": "CO"
+          },
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Cartagena",
+            "addressRegion": "Bolívar",
+            "addressCountry": "CO"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Montería"
+          },
+          {
+            "@type": "City",
+            "name": "Cartagena"
+          }
+        ],
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.53",
+          "ratingCount": "600"
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "JH Royett",
+          "jobTitle": "Investigador Asociado Minciencias"
+        }
+      }
+    </script>
+
+    <!-- SCHEMA MARKUP PARA TESTIMONIOS/REVIEWS -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "JHRoyett Research",
+        "url": "https://jhroyettresearch.com",
+        "logo": "https://jhroyettresearch.com/imagenes/Logo.png",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "6",
+          "bestRating": "5",
+          "worstRating": "5"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "María González"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "La asesoría fue excepcional. JH Royett me guió paso a paso en mi investigación doctoral, desde el diseño metodológico hasta la defensa exitosa. Su experiencia y retroalimentación constante fueron clave para lograr una calificación sobresaliente.",
+            "datePublished": "2024-11-15"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Carlos Ramírez"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Trabajar con profesionales tan dedicados hizo toda la diferencia. Mi tesis de maestría no solo cumplió con todos los requisitos académicos, sino que superó mis expectativas. El acompañamiento fue personalizado y muy efectivo.",
+            "datePublished": "2024-10-20"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Ana Martínez"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Después de meses estancada con mi tesis doctoral, el acompañamiento que recibí fue transformador. La claridad metodológica y el apoyo en la redacción académica me permitieron finalizar mi doctorado con honores. Totalmente recomendado.",
+            "datePublished": "2024-09-10"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Jorge López"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "La experiencia y conocimiento demostrado en cada sesión de asesoría fue impresionante. No solo me ayudaron con la estructura de mi tesis, sino que también me enseñaron técnicas de investigación que aplicaré en mi carrera profesional.",
+            "datePublished": "2024-08-05"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Laura Sánchez"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Como profesional trabajando tiempo completo, necesitaba un apoyo que se adaptara a mis horarios. La flexibilidad y calidad del servicio fueron excepcionales. Terminé mi especialización a tiempo y con excelentes resultados.",
+            "datePublished": "2024-07-18"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Roberto Díaz"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Gracias al acompañamiento profesional, logré publicar mi artículo en una revista indexada Q1. El apoyo en la redacción académica en inglés y la gestión del proceso editorial fueron invaluables. Mi artículo fue aceptado en la primera revisión.",
+            "datePublished": "2024-06-25"
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body class="aos-loading">
+    <!-- Top Bar -->
+    <div class="top-bar" data-aos="fade-down" data-aos-duration="800">
+      <div class="container">
+        <div class="top-bar-content">
+          <div class="top-bar-left">
+            <span class="top-bar-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Montería y Cartagena, Colombia
+            </span>
+            <span class="top-bar-item">
+              <i class="fas fa-envelope"></i>
+              contacto@jhroyett.com
+            </span>
+          </div>
+          <div class="top-bar-right">
+            <span class="top-bar-item">
+              <i class="fas fa-clock"></i>
+              Horario 24/7
+            </span>
+            <div class="social-links">
+              <a href="#" target="_blank" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" target="_blank" title="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-custom"
+      data-aos="fade-down"
+      data-aos-delay="100"
+      data-aos-duration="800"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./imagenes/Logo.png"
+            alt="JHRoyett Research - Asesoría de Tesis Montería y Cartagena"
+            class="navbar-logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#methodology">Metodología</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+
+          <a href="#agendar" class="btn-request">Agendar Asesoría</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center hero-content">
+          <!-- Contenido Izquierdo -->
+          <div class="col-lg-6 hero-text">
+            <div
+              class="hero-badge"
+              data-aos="fade-down"
+              data-aos-duration="600"
+              data-aos-delay="100"
+            >
+              <i class="fas fa-handshake"></i>
+              TU INVESTIGACIÓN EN MANOS EXPERTAS
+            </div>
+
+            <h1
+              class="hero-title"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              Termina tu Tesis de <span class="highlight">Maestría</span> o
+              <span class="highlight">Doctorado</span> sin Estrés
+            </h1>
+
+            <p
+              class="hero-subtitle"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              Metodología probada con 800+ casos de éxito. Te acompaño en cada
+              etapa de tu investigación para que logres tu título sin
+              dificultades ni ansiedad. Atención en Montería, Cartagena y toda
+              Colombia.
+            </p>
+
+            <div
+              class="hero-buttons"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <a href="#agendar" class="btn-primary">
+                <i class="fas fa-calendar-check"></i> Agendar Asesoría Gratuita
+              </a>
+              <a href="#services" class="btn-secondary">
+                <i class="fas fa-play-circle"></i> Ver Servicios
+              </a>
+            </div>
+
+            <div
+              class="hero-stats"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              <div
+                class="stat-item"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+                data-aos-delay="600"
+              >
+                <div class="stat-number" data-target="800">0</div>
+                <div class="stat-label">Casos Exitosos</div>
+              </div>
+              <div
+                class="stat-item"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+                data-aos-delay="700"
+              >
+                <div class="stat-number" data-target="24">0</div>
+                <div class="stat-label">Años de Experiencia</div>
+              </div>
+              <div
+                class="stat-item"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+                data-aos-delay="800"
+              >
+                <div class="stat-number" data-target="4.5">0</div>
+                <div class="stat-label">Promedio de Notas</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Imagen Derecha -->
+          <div class="col-lg-6 hero-image-container">
+            <div
+              class="hero-image"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <img
+                src="./imagenes/DSC_0023.webp"
+                alt="JH Royett - Asesor de Tesis en Montería y Cartagena"
+                class="img-fluid"
+              />
+              <div
+                class="floating-card"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+              >
+                <div class="card-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-content">
+                  <h5>Tasa de Éxito</h5>
+                  <div class="growth-percentage">98%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Column: Grid de Imágenes + Video -->
+          <div class="col-lg-5 about-left">
+            <div class="images-composition">
+              <!-- Imagen 1 - Superior izquierda -->
+              <div
+                class="image-item-1"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
+                <img
+                  src="./imagenes/about-1.webp"
+                  alt="Asesoría Personalizada de Tesis"
+                />
+                <div class="image-overlay"></div>
+              </div>
+
+              <!-- Imagen 2 - Superior derecha -->
+              <div
+                class="image-item-2"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img
+                  src="./imagenes/about2.webp"
+                  alt="Metodología de Investigación"
+                />
+                <div class="image-overlay"></div>
+              </div>
+
+              <!-- Video - Fila inferior completa -->
+              <div
+                class="video-item"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div class="video-wrapper">
+                  <iframe
+                    class="video-iframe"
+                    src="https://www.youtube.com/embed/p0odcJAzplI?controls=1&modestbranding=1&rel=0"
+                    title="JH Royett Research - Video Presentación"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Content -->
+          <div class="col-lg-7 about-right">
+            <div
+              class="section-label"
+              data-aos="fade-left"
+              data-aos-duration="600"
+            >
+              ASESORÍA ACADÉMICA ESPECIALIZADA
+            </div>
+
+            <h2
+              class="section-title"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
+              Te Acompaño Hasta Tu <span class="highlight">Graduación</span>
+            </h2>
+
+            <p
+              class="section-description"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              Sé que el camino hacia tu título puede estar lleno de desafíos y
+              momentos de duda. Entiendo la importancia de tu tesis en tu vida.
+              Por eso te ayudaré a definir el enfoque correcto y, con mi
+              retroalimentación experta, mejorarás la calidad de tu trabajo
+              avanzando con claridad y confianza. Con atención en Montería y
+              Cartagena.
+            </p>
+
+            <!-- Grid de Credenciales 2x2 -->
+            <div class="credentials-grid">
+              <div
+                class="credential-item"
+                data-aos="flip-left"
+                data-aos-duration="600"
+                data-aos-delay="300"
+              >
+                <div class="credential-icon">
+                  <i class="fas fa-book"></i>
+                </div>
+                <div class="credential-content">
+                  <div class="credential-number">+100</div>
+                  <div class="credential-label">Publicaciones Científicas</div>
+                </div>
+              </div>
+
+              <div
+                class="credential-item"
+                data-aos="flip-left"
+                data-aos-duration="600"
+                data-aos-delay="400"
+              >
+                <div class="credential-icon">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="credential-content">
+                  <div class="credential-number">4.53/5.00</div>
+                  <div class="credential-label">Promedio de Notas</div>
+                </div>
+              </div>
+
+              <div
+                class="credential-item"
+                data-aos="flip-left"
+                data-aos-duration="600"
+                data-aos-delay="500"
+              >
+                <div class="credential-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="credential-content">
+                  <div class="credential-number">Minciencias</div>
+                  <div class="credential-label">Investigador Asociado</div>
+                </div>
+              </div>
+
+              <div
+                class="credential-item"
+                data-aos="flip-left"
+                data-aos-duration="600"
+                data-aos-delay="600"
+              >
+                <div class="credential-icon">
+                  <i class="fas fa-award"></i>
+                </div>
+                <div class="credential-content">
+                  <div class="credential-number">24 Años</div>
+                  <div class="credential-label">de Experiencia Comprobada</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div
+              class="about-cta"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="700"
+            >
+              <a href="#services" class="btn-about">
+                Conocer Servicios
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+ PROBLEMS SECTION - 3D SWIPER CAROUSEL
+ ========================================== -->
+    <section class="problems-section-v2" id="problems">
+      <div class="container">
+        <!-- Header -->
+        <div class="section-header text-center">
+          <div
+            class="section-label-v2"
+            data-aos="fade-down"
+            data-aos-duration="600"
+          >
+            DESAFÍOS COMUNES
+          </div>
+          <h2
+            class="section-title-v2"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            ¿Te Identificas con Alguno de Estos
+            <span class="highlight">Desafíos?</span>
+          </h2>
+          <p
+            class="section-description-v2"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            Estos son los obstáculos más frecuentes que enfrentan los
+            estudiantes de maestría y doctorado. Si te sientes reflejado, tengo
+            la solución para ti.
+          </p>
+        </div>
+
+        <!-- Swiper Carousel 3D -->
+        <div
+          class="problems-swiper-container"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+        >
+          <div class="swiper problems-swiper-3d">
+            <div class="swiper-wrapper">
+              <!-- Slide 1: Ansiedad -->
+              <div class="swiper-slide">
+                <div class="problem-card-v2">
+                  <div class="problem-badge-v2">ANSIEDAD</div>
+                  <div class="problem-image-v2">
+                    <img
+                      src="./imagenes/5166.webp"
+                      alt="Ansiedad al hacer tesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="problem-content-v2">
+                    <h3 class="problem-title-v2">La ansiedad me paraliza</h3>
+                    <p class="problem-description-v2">
+                      Sientes nerviosismo constante pensando en tu tesis. La
+                      incertidumbre sobre si lo estás haciendo bien te genera
+                      ansiedad que te impide avanzar.
+                    </p>
+                    <div class="problem-footer-v2">
+                      <i class="fas fa-arrow-right"></i>
+                      <span
+                        >Plan claro y organizado que elimina la ansiedad</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2: Errores -->
+              <div class="swiper-slide">
+                <div class="problem-card-v2">
+                  <div class="problem-badge-v2">ERRORES</div>
+                  <div class="problem-image-v2">
+                    <img
+                      src="./imagenes/errores.webp"
+                      alt="Errores metodológicos en tesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="problem-content-v2">
+                    <h3 class="problem-title-v2">
+                      Temo cometer errores graves
+                    </h3>
+                    <p class="problem-description-v2">
+                      Te preocupa equivocarte en la metodología o en el enfoque
+                      de tu investigación y tener que empezar de nuevo después
+                      de meses de trabajo.
+                    </p>
+                    <div class="problem-footer-v2">
+                      <i class="fas fa-arrow-right"></i>
+                      <span>Retroalimentación experta en cada etapa</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3: Agotamiento -->
+              <div class="swiper-slide">
+                <div class="problem-card-v2">
+                  <div class="problem-badge-v2">AGOTAMIENTO</div>
+                  <div class="problem-image-v2">
+                    <img
+                      src="./imagenes/agotamiento.webp"
+                      alt="Agotamiento mental por tesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="problem-content-v2">
+                    <h3 class="problem-title-v2">Estoy mentalmente agotado</h3>
+                    <p class="problem-description-v2">
+                      Entre trabajo, familia y la tesis te sientes exhausto. Ya
+                      no tienes energía ni claridad mental para continuar con tu
+                      investigación.
+                    </p>
+                    <div class="problem-footer-v2">
+                      <i class="fas fa-arrow-right"></i>
+                      <span
+                        >Estrategias para optimizar tu tiempo y energía</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4: Desesperación -->
+              <div class="swiper-slide">
+                <div class="problem-card-v2">
+                  <div class="problem-badge-v2">DESESPERACIÓN</div>
+                  <div class="problem-image-v2">
+                    <img
+                      src="./imagenes/desesperacion.webp"
+                      alt="Desesperación al escribir tesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="problem-content-v2">
+                    <h3 class="problem-title-v2">Siento que nunca terminaré</h3>
+                    <p class="problem-description-v2">
+                      Llevas meses o años trabajando y parece que nunca avanzas.
+                      La desesperación de no ver el final te hace dudar si
+                      podrás lograrlo.
+                    </p>
+                    <div class="problem-footer-v2">
+                      <i class="fas fa-arrow-right"></i>
+                      <span>Te acompaño hasta tu graduación</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 5: Estrés -->
+              <div class="swiper-slide">
+                <div class="problem-card-v2">
+                  <div class="problem-badge-v2">ESTRÉS</div>
+                  <div class="problem-image-v2">
+                    <img
+                      src="./imagenes/estres.webp"
+                      alt="Estrés por plazos de tesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="problem-content-v2">
+                    <h3 class="problem-title-v2">Los plazos me abruman</h3>
+                    <p class="problem-description-v2">
+                      Las fechas límite se acercan y el estrés aumenta. No sabes
+                      cómo cumplir con todas las exigencias de tu universidad en
+                      el tiempo que te queda.
+                    </p>
+                    <div class="problem-footer-v2">
+                      <i class="fas fa-arrow-right"></i>
+                      <span>Cronograma realista adaptado a tus plazos</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 6: Procrastinación -->
+              <div class="swiper-slide">
+                <div class="problem-card-v2">
+                  <div class="problem-badge-v2">PROCRASTINACIÓN</div>
+                  <div class="problem-image-v2">
+                    <img
+                      src="./imagenes/procastinacion.webp"
+                      alt="Procrastinación en tesis"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="problem-content-v2">
+                    <h3 class="problem-title-v2">Sigo posponiendo mi tesis</h3>
+                    <p class="problem-description-v2">
+                      Siempre encuentras excusas para no trabajar en tu
+                      investigación. La procrastinación te tiene atrapado y el
+                      tiempo sigue pasando sin avances.
+                    </p>
+                    <div class="problem-footer-v2">
+                      <i class="fas fa-arrow-right"></i>
+                      <span
+                        >Acompañamiento constante que te mantiene enfocado</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="problems-swiper-button-prev">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="problems-swiper-button-next">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="problems-swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- CTA Bottom -->
+        <div
+          class="problems-cta-v2 text-center"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="600"
+        >
+          <p class="cta-text-v2">
+            ¿Alguno de estos desafíos te suena familiar?
+            <strong>He ayudado a 600+ estudiantes a superarlos.</strong>
+          </p>
+          <a href="#agendar" class="btn-problems-v2">
+            Agenda una Consulta Gratuita
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+ BENEFITS SECTION V2 - DISEÑO GRID SIMPLE
+ ========================================== -->
+    <section class="benefits-section-v2" id="benefits">
+      <div class="container">
+        <!-- Top Header con Título y Botón -->
+        <div class="benefits-top-header">
+          <div class="benefits-header-left">
+            <h2
+              class="benefits-main-title"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              Beneficios de Realizar tu Asesoría con
+              <span class="highlight">J.H.Royett Research</span>
+            </h2>
+            <p
+              class="benefits-main-description"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
+              Obtén acompañamiento especializado que transforma tu proceso de
+              investigación en una experiencia estructurada y exitosa.
+            </p>
+          </div>
+          <div
+            class="benefits-header-right"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <a href="#agendar" class="btn-more-benefits">
+              Agendar Asesoría
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Grid de Beneficios - 3 columnas x 2 filas -->
+        <div class="benefits-grid-v2">
+          <!-- Benefit Item 1 -->
+          <div
+            class="benefit-item-v2"
+            data-aos="zoom-in-up"
+            data-aos-duration="600"
+            data-aos-delay="100"
+          >
+            <div class="benefit-icon-v2">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="benefit-content-v2">
+              <h3 class="benefit-title-v2">Orientación con un experto</h3>
+              <p class="benefit-desc-v2">
+                Obtendrás orientación de expertos en tu área para enfocar tu
+                tesis efectivamente.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit Item 2 -->
+          <div
+            class="benefit-item-v2"
+            data-aos="zoom-in-up"
+            data-aos-duration="600"
+            data-aos-delay="200"
+          >
+            <div class="benefit-icon-v2">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="benefit-content-v2">
+              <h3 class="benefit-title-v2">Ahorro de tiempo</h3>
+              <p class="benefit-desc-v2">
+                Evitarás pérdida de tiempo con orientación precisa y recursos
+                adecuados.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit Item 3 -->
+          <div
+            class="benefit-item-v2"
+            data-aos="zoom-in-up"
+            data-aos-duration="600"
+            data-aos-delay="300"
+          >
+            <div class="benefit-icon-v2">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="benefit-content-v2">
+              <h3 class="benefit-title-v2">Mejora de calidad</h3>
+              <p class="benefit-desc-v2">
+                La retroalimentación mejora significativamente la calidad de tu
+                trabajo académico.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit Item 4 -->
+          <div
+            class="benefit-item-v2"
+            data-aos="zoom-in-up"
+            data-aos-duration="600"
+            data-aos-delay="400"
+          >
+            <div class="benefit-icon-v2">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="benefit-content-v2">
+              <h3 class="benefit-title-v2">Reducción del estrés</h3>
+              <p class="benefit-desc-v2">
+                Reducirás el estrés y ansiedad asociados con la escritura de tu
+                tesis.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit Item 5 -->
+          <div
+            class="benefit-item-v2"
+            data-aos="zoom-in-up"
+            data-aos-duration="600"
+            data-aos-delay="500"
+          >
+            <div class="benefit-icon-v2">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <div class="benefit-content-v2">
+              <h3 class="benefit-title-v2">Planificación efectiva</h3>
+              <p class="benefit-desc-v2">
+                Planificarás tu investigación de manera eficiente evitando
+                desviaciones.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit Item 6 -->
+          <div
+            class="benefit-item-v2"
+            data-aos="zoom-in-up"
+            data-aos-duration="600"
+            data-aos-delay="600"
+          >
+            <div class="benefit-icon-v2">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="benefit-content-v2">
+              <h3 class="benefit-title-v2">Aumento de confianza</h3>
+              <p class="benefit-desc-v2">
+                Ganarás confianza para defender tu tesis con éxito frente al
+                jurado.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+ SERVICES SECTION - DISEÑO MODERNO
+ ========================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <!-- Header -->
+        <div class="section-header text-center">
+          <div
+            class="section-label"
+            data-aos="fade-down"
+            data-aos-duration="600"
+          >
+            NUESTROS SERVICIOS
+          </div>
+          <h2
+            class="section-title"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            Estos Servicios son la Clave de tu
+            <span class="highlight">Éxito</span>
+          </h2>
+          <p
+            class="section-description"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            Ofrezco asesoría especializada adaptada a cada nivel académico.
+            Desde tu maestría hasta publicaciones científicas, te acompaño en
+            cada paso. Servicio disponible en Montería, Cartagena y modalidad
+            virtual.
+          </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="row services-grid">
+          <!-- Service 1: Tesis Doctoral -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="service-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              <div class="service-top-border"></div>
+
+              <div class="service-header">
+                <div class="service-icon">
+                  <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3 class="service-title">Tesis Doctoral</h3>
+              </div>
+
+              <p class="service-description">
+                Acompañamiento integral desde el diseño metodológico hasta la
+                defensa exitosa de tu tesis doctoral. Experiencia en múltiples
+                áreas del conocimiento.
+              </p>
+
+              <div class="service-image">
+                <img
+                  src="./imagenes/doctorado.webp"
+                  alt="Asesoría Tesis Doctoral Montería Cartagena"
+                  loading="lazy"
+                />
+                <div class="service-overlay"></div>
+              </div>
+
+              <a href="#agendar" class="service-link">
+                Cotizar
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 2: Tesis de Maestría -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="service-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <div class="service-top-border"></div>
+
+              <div class="service-header">
+                <div class="service-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3 class="service-title">Tesis de Maestría</h3>
+              </div>
+
+              <p class="service-description">
+                Asesoría personalizada para desarrollar tu tesis de maestría con
+                metodología rigurosa y resultados sólidos que impresionen al
+                jurado evaluador.
+              </p>
+
+              <div class="service-image">
+                <img
+                  src="./imagenes/120.webp"
+                  alt="Asesoría Tesis de Maestría Montería Cartagena"
+                  loading="lazy"
+                />
+                <div class="service-overlay"></div>
+              </div>
+
+              <a href="#agendar" class="service-link">
+                Cotizar
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 3: Especialización -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="service-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              <div class="service-top-border"></div>
+
+              <div class="service-header">
+                <div class="service-icon">
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <h3 class="service-title">Especialización</h3>
+              </div>
+
+              <p class="service-description">
+                Guía completa para tu trabajo de grado de especialización. Te
+                ayudo a estructurar, redactar y presentar un proyecto académico
+                de calidad.
+              </p>
+
+              <div class="service-image">
+                <img
+                  src="./imagenes/2147657347.webp"
+                  alt="Trabajo de Grado Especialización Montería Cartagena"
+                  loading="lazy"
+                />
+                <div class="service-overlay"></div>
+              </div>
+
+              <a href="#agendar" class="service-link">
+                Cotizar
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 4: Artículo Científico -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div
+              class="service-card"
+              data-aos="flip-up"
+              data-aos-duration="800"
+              data-aos-delay="600"
+            >
+              <div class="service-top-border"></div>
+
+              <div class="service-header">
+                <div class="service-icon">
+                  <i class="fas fa-file-alt"></i>
+                </div>
+                <h3 class="service-title">Artículo Científico</h3>
+              </div>
+
+              <p class="service-description">
+                Apoyo especializado para publicar en revistas indexadas (Scopus,
+                WoS, etc.). Desde el plan de escritura hasta la publicación
+                final.
+              </p>
+
+              <div class="service-image">
+                <img
+                  src="./imagenes/63614.webp"
+                  alt="Publicación Artículo Científico Colombia"
+                  loading="lazy"
+                />
+                <div class="service-overlay"></div>
+              </div>
+
+              <a href="#agendar" class="service-link">
+                Cotizar
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Text -->
+        <div
+          class="services-bottom text-center"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="700"
+        >
+          <p class="bottom-text">
+            <i class="fas fa-check-circle"></i>
+            <strong>Acompañamiento permanente y calidad garantizada</strong> en
+            todos nuestros servicios
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+ CONTACT FORM SECTION - DISEÑO MODERNO
+ ========================================== -->
+    <section class="contact-form-section" id="agendar">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Columna Izquierda: Formulario -->
+          <div class="col-lg-6 form-column">
+            <div
+              class="form-wrapper"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              <!-- Header del Formulario -->
+              <div class="form-header">
+                <div class="form-label">AGENDA TU ASESORÍA</div>
+                <h2 class="form-title">
+                  Solicita una <span class="highlight">Consulta Gratuita</span>
+                </h2>
+                <p class="form-description">
+                  Completa el formulario y te contactaremos en menos de 24 horas
+                  para discutir tus necesidades de investigación.
+                </p>
+              </div>
+
+              <!-- Formulario -->
+              <form class="contact-form" id="contactForm">
+                <!-- Fila 1: Nombre y Teléfono -->
+                <div
+                  class="form-row-custom"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="100"
+                >
+                  <div class="form-group-custom">
+                    <input
+                      type="text"
+                      class="form-control-custom"
+                      id="nombre"
+                      name="nombre"
+                      placeholder="Tu Nombre Completo"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group-custom">
+                    <input
+                      type="tel"
+                      class="form-control-custom"
+                      id="telefono"
+                      name="telefono"
+                      placeholder="Tu Teléfono"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div
+                  class="form-group-custom"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="200"
+                >
+                  <input
+                    type="email"
+                    class="form-control-custom"
+                    id="email"
+                    name="email"
+                    placeholder="Tu Correo Electrónico"
+                    required
+                  />
+                </div>
+
+                <!-- Tipo de Necesidad -->
+                <div
+                  class="form-group-custom"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="300"
+                >
+                  <select
+                    class="form-control-custom"
+                    id="tipoNecesidad"
+                    name="tipoNecesidad"
+                    required
+                  >
+                    <option value="" disabled selected>
+                      Tipo de Necesidad
+                    </option>
+                    <option value="maestria">Tesis de Maestría</option>
+                    <option value="doctorado">Tesis Doctoral</option>
+                    <option value="especializacion">Especialización</option>
+                    <option value="articulo">Artículo Científico</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+
+                <!-- Mensaje -->
+                <div
+                  class="form-group-custom"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="400"
+                >
+                  <textarea
+                    class="form-control-custom textarea-custom"
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Cuéntanos sobre tu proyecto de investigación..."
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- Botón de Envío -->
+                <button
+                  type="submit"
+                  class="btn-submit-form"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="500"
+                >
+                  <i class="fas fa-paper-plane"></i>
+                  Enviar Solicitud
+                </button>
+              </form>
+
+              <!-- Información Adicional -->
+              <div
+                class="form-footer-info"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="600"
+              >
+                <div class="info-item">
+                  <i class="fas fa-clock"></i>
+                  <span>Respuesta en menos de 24 horas</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-shield-alt"></i>
+                  <span>Tus datos están 100% protegidos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Imagen -->
+          <div class="col-lg-6 image-column">
+            <div
+              class="form-image-wrapper"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              <img
+                src="./imagenes/contacto.webp"
+                alt="Consulta Gratuita Asesoría de Tesis Montería Cartagena"
+                class="form-image"
+                loading="lazy"
+              />
+
+              <!-- Badge Flotante -->
+              <div
+                class="image-badge"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+                data-aos-delay="800"
+              >
+                <div class="badge-icon">
+                  <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="badge-content">
+                  <div class="badge-number">600+</div>
+                  <div class="badge-text">Casos<br />Exitosos</div>
+                </div>
+              </div>
+
+              <!-- Decoración -->
+              <div
+                class="image-decoration"
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="1000"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Contact Alternative -->
+    <div
+      class="whatsapp-alternative"
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-offset="50"
+    >
+      <div class="container">
+        <div class="whatsapp-box">
+          <div class="whatsapp-content">
+            <i class="fab fa-whatsapp"></i>
+            <div class="whatsapp-text">
+              <h4>¿Prefieres hablar directamente?</h4>
+              <p>Contáctanos por WhatsApp y resolvemos tus dudas al instante</p>
+            </div>
+          </div>
+
+          <a
+            href="href"
+            ="https://wa.me/573001234567"
+            target="_blank"
+            class="btn-whatsapp"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-whatsapp"></i>
+            Abrir WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
+ TESTIMONIALS SECTION - SWIPER DESIGN
+ ========================================== -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <!-- Header -->
+        <div class="testimonials-header">
+          <div class="testimonials-header-left">
+            <div
+              class="section-label"
+              data-aos="fade-down"
+              data-aos-duration="600"
+            >
+              NUESTROS TESTIMONIOS
+            </div>
+            <h2
+              class="section-title"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
+              Lo Que Dicen Nuestros <span class="highlight">Clientes</span>
+            </h2>
+          </div>
+          <div
+            class="testimonials-header-right"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <!-- Navegación personalizada -->
+            <div class="testimonial-navigation">
+              <button
+                class="testimonial-nav-btn testimonial-prev"
+                aria-label="Testimonio anterior"
+              >
+                <i class="fas fa-arrow-left"></i>
+              </button>
+              <span class="testimonial-pagination-custom">
+                <span class="current-slide">1</span> /
+                <span class="total-slides">6</span>
+              </span>
+              <button
+                class="testimonial-nav-btn testimonial-next"
+                aria-label="Testimonio siguiente"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper Container -->
+        <div
+          class="testimonials-swiper-wrapper"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+        >
+          <div class="swiper testimonials-swiper">
+            <div class="swiper-wrapper">
+              <!-- Testimonial Slide 1 -->
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-card"
+                  itemscope
+                  itemtype="https://schema.org/Review"
+                >
+                  <div class="testimonial-content">
+                    <!-- Imagen del cliente -->
+                    <div class="testimonial-image">
+                      <img
+                        src="./imagenes/test-1.webp"
+                        alt="María González - Testimonio Doctorado"
+                        loading="lazy"
+                        itemprop="image"
+                      />
+                      <div class="image-overlay"></div>
+                    </div>
+
+                    <!-- Información y testimonio -->
+                    <div class="testimonial-info">
+                      <!-- Item reviewed -->
+                      <div
+                        itemprop="itemReviewed"
+                        itemscope
+                        itemtype="https://schema.org/Service"
+                      >
+                        <meta
+                          itemprop="name"
+                          content="JHRoyett Research - Asesoría de Tesis Doctoral"
+                        />
+                      </div>
+
+                      <h3
+                        class="testimonial-name"
+                        itemprop="author"
+                        itemscope
+                        itemtype="https://schema.org/Person"
+                      >
+                        <span itemprop="name">María González</span>
+                      </h3>
+                      <p class="testimonial-role">Doctorado en Educación</p>
+
+                      <p class="testimonial-text" itemprop="reviewBody">
+                        La asesoría fue excepcional. JH Royett me guió paso a
+                        paso en mi investigación doctoral, desde el diseño
+                        metodológico hasta la defensa exitosa. Su experiencia y
+                        retroalimentación constante fueron clave para lograr una
+                        calificación sobresaliente.
+                      </p>
+
+                      <!-- Footer con empresa y estrellas -->
+                      <div class="testimonial-footer">
+                        <div class="testimonial-company">
+                          <i class="fas fa-university"></i>
+                          <span>Universidad Nacional</span>
+                        </div>
+                        <div
+                          class="testimonial-rating"
+                          itemprop="reviewRating"
+                          itemscope
+                          itemtype="https://schema.org/Rating"
+                        >
+                          <meta itemprop="worstRating" content="1" />
+                          <meta itemprop="ratingValue" content="5" />
+                          <meta itemprop="bestRating" content="5" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <meta itemprop="datePublished" content="2024-11-15" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Slide 2 -->
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-card"
+                  itemscope
+                  itemtype="https://schema.org/Review"
+                >
+                  <div class="testimonial-content">
+                    <div class="testimonial-image">
+                      <img
+                        src="./imagenes/test-2.webp"
+                        alt="Carlos Ramírez - Testimonio Maestría"
+                        loading="lazy"
+                        itemprop="image"
+                      />
+                      <div class="image-overlay"></div>
+                    </div>
+
+                    <div class="testimonial-info">
+                      <div
+                        itemprop="itemReviewed"
+                        itemscope
+                        itemtype="https://schema.org/Service"
+                      >
+                        <meta
+                          itemprop="name"
+                          content="JHRoyett Research - Asesoría de Tesis de Maestría"
+                        />
+                      </div>
+
+                      <h3
+                        class="testimonial-name"
+                        itemprop="author"
+                        itemscope
+                        itemtype="https://schema.org/Person"
+                      >
+                        <span itemprop="name">Carlos Ramírez</span>
+                      </h3>
+                      <p class="testimonial-role">Maestría en Administración</p>
+
+                      <p class="testimonial-text" itemprop="reviewBody">
+                        Trabajar con profesionales tan dedicados hizo toda la
+                        diferencia. Mi tesis de maestría no solo cumplió con
+                        todos los requisitos académicos, sino que superó mis
+                        expectativas. El acompañamiento fue personalizado y muy
+                        efectivo.
+                      </p>
+
+                      <div class="testimonial-footer">
+                        <div class="testimonial-company">
+                          <i class="fas fa-building"></i>
+                          <span>EAFIT</span>
+                        </div>
+                        <div
+                          class="testimonial-rating"
+                          itemprop="reviewRating"
+                          itemscope
+                          itemtype="https://schema.org/Rating"
+                        >
+                          <meta itemprop="worstRating" content="1" />
+                          <meta itemprop="ratingValue" content="5" />
+                          <meta itemprop="bestRating" content="5" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <meta itemprop="datePublished" content="2024-10-20" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Slide 3 -->
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-card"
+                  itemscope
+                  itemtype="https://schema.org/Review"
+                >
+                  <div class="testimonial-content">
+                    <div class="testimonial-image">
+                      <img
+                        src="./imagenes/test-3.webp"
+                        alt="Ana Martínez - Testimonio Doctorado"
+                        loading="lazy"
+                        itemprop="image"
+                      />
+                      <div class="image-overlay"></div>
+                    </div>
+
+                    <div class="testimonial-info">
+                      <div
+                        itemprop="itemReviewed"
+                        itemscope
+                        itemtype="https://schema.org/Service"
+                      >
+                        <meta
+                          itemprop="name"
+                          content="JHRoyett Research - Asesoría de Tesis Doctoral"
+                        />
+                      </div>
+
+                      <h3
+                        class="testimonial-name"
+                        itemprop="author"
+                        itemscope
+                        itemtype="https://schema.org/Person"
+                      >
+                        <span itemprop="name">Ana Martínez</span>
+                      </h3>
+                      <p class="testimonial-role">
+                        Doctorado en Ciencias Sociales
+                      </p>
+
+                      <p class="testimonial-text" itemprop="reviewBody">
+                        Después de meses estancada con mi tesis doctoral, el
+                        acompañamiento que recibí fue transformador. La claridad
+                        metodológica y el apoyo en la redacción académica me
+                        permitieron finalizar mi doctorado con honores.
+                        Totalmente recomendado.
+                      </p>
+
+                      <div class="testimonial-footer">
+                        <div class="testimonial-company">
+                          <i class="fas fa-graduation-cap"></i>
+                          <span>Universidad de Antioquia</span>
+                        </div>
+                        <div
+                          class="testimonial-rating"
+                          itemprop="reviewRating"
+                          itemscope
+                          itemtype="https://schema.org/Rating"
+                        >
+                          <meta itemprop="worstRating" content="1" />
+                          <meta itemprop="ratingValue" content="5" />
+                          <meta itemprop="bestRating" content="5" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <meta itemprop="datePublished" content="2024-09-10" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Slide 4 -->
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-card"
+                  itemscope
+                  itemtype="https://schema.org/Review"
+                >
+                  <div class="testimonial-content">
+                    <div class="testimonial-image">
+                      <img
+                        src="./imagenes/test-4.webp"
+                        alt="Jorge López - Testimonio Maestría"
+                        loading="lazy"
+                        itemprop="image"
+                      />
+                      <div class="image-overlay"></div>
+                    </div>
+
+                    <div class="testimonial-info">
+                      <div
+                        itemprop="itemReviewed"
+                        itemscope
+                        itemtype="https://schema.org/Service"
+                      >
+                        <meta
+                          itemprop="name"
+                          content="JHRoyett Research - Asesoría de Tesis de Maestría"
+                        />
+                      </div>
+
+                      <h3
+                        class="testimonial-name"
+                        itemprop="author"
+                        itemscope
+                        itemtype="https://schema.org/Person"
+                      >
+                        <span itemprop="name">Jorge López</span>
+                      </h3>
+                      <p class="testimonial-role">Maestría en Ingeniería</p>
+
+                      <p class="testimonial-text" itemprop="reviewBody">
+                        La experiencia y conocimiento demostrado en cada sesión
+                        de asesoría fue impresionante. No solo me ayudaron con
+                        la estructura de mi tesis, sino que también me enseñaron
+                        técnicas de investigación que aplicaré en mi carrera
+                        profesional.
+                      </p>
+
+                      <div class="testimonial-footer">
+                        <div class="testimonial-company">
+                          <i class="fas fa-cogs"></i>
+                          <span>Universidad Pontificia Bolivariana</span>
+                        </div>
+                        <div
+                          class="testimonial-rating"
+                          itemprop="reviewRating"
+                          itemscope
+                          itemtype="https://schema.org/Rating"
+                        >
+                          <meta itemprop="worstRating" content="1" />
+                          <meta itemprop="ratingValue" content="5" />
+                          <meta itemprop="bestRating" content="5" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <meta itemprop="datePublished" content="2024-08-05" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Slide 5 -->
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-card"
+                  itemscope
+                  itemtype="https://schema.org/Review"
+                >
+                  <div class="testimonial-content">
+                    <div class="testimonial-image">
+                      <img
+                        src="./imagenes/test-5.webp"
+                        alt="Laura Sánchez - Testimonio Especialización"
+                        loading="lazy"
+                        itemprop="image"
+                      />
+                      <div class="image-overlay"></div>
+                    </div>
+
+                    <div class="testimonial-info">
+                      <div
+                        itemprop="itemReviewed"
+                        itemscope
+                        itemtype="https://schema.org/Service"
+                      >
+                        <meta
+                          itemprop="name"
+                          content="JHRoyett Research - Asesoría de Especialización"
+                        />
+                      </div>
+
+                      <h3
+                        class="testimonial-name"
+                        itemprop="author"
+                        itemscope
+                        itemtype="https://schema.org/Person"
+                      >
+                        <span itemprop="name">Laura Sánchez</span>
+                      </h3>
+                      <p class="testimonial-role">
+                        Especialización en Marketing
+                      </p>
+
+                      <p class="testimonial-text" itemprop="reviewBody">
+                        Como profesional trabajando tiempo completo, necesitaba
+                        un apoyo que se adaptara a mis horarios. La flexibilidad
+                        y calidad del servicio fueron excepcionales. Terminé mi
+                        especialización a tiempo y con excelentes resultados.
+                      </p>
+
+                      <div class="testimonial-footer">
+                        <div class="testimonial-company">
+                          <i class="fas fa-chart-line"></i>
+                          <span>Universidad EAFIT</span>
+                        </div>
+                        <div
+                          class="testimonial-rating"
+                          itemprop="reviewRating"
+                          itemscope
+                          itemtype="https://schema.org/Rating"
+                        >
+                          <meta itemprop="worstRating" content="1" />
+                          <meta itemprop="ratingValue" content="5" />
+                          <meta itemprop="bestRating" content="5" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <meta itemprop="datePublished" content="2024-07-18" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Slide 6 -->
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-card"
+                  itemscope
+                  itemtype="https://schema.org/Review"
+                >
+                  <div class="testimonial-content">
+                    <div class="testimonial-image">
+                      <img
+                        src="./imagenes/test-6.webp"
+                        alt="Roberto Díaz - Testimonio Doctorado"
+                        loading="lazy"
+                        itemprop="image"
+                      />
+                      <div class="image-overlay"></div>
+                    </div>
+
+                    <div class="testimonial-info">
+                      <div
+                        itemprop="itemReviewed"
+                        itemscope
+                        itemtype="https://schema.org/Service"
+                      >
+                        <meta
+                          itemprop="name"
+                          content="JHRoyett Research - Publicación de Artículos Científicos"
+                        />
+                      </div>
+
+                      <h3
+                        class="testimonial-name"
+                        itemprop="author"
+                        itemscope
+                        itemtype="https://schema.org/Person"
+                      >
+                        <span itemprop="name">Roberto Díaz</span>
+                      </h3>
+                      <p class="testimonial-role">Doctorado en Economía</p>
+
+                      <p class="testimonial-text" itemprop="reviewBody">
+                        Gracias al acompañamiento profesional, logré publicar mi
+                        artículo en una revista indexada Q1. El apoyo en la
+                        redacción académica en inglés y la gestión del proceso
+                        editorial fueron invaluables. Mi artículo fue aceptado
+                        en la primera revisión.
+                      </p>
+
+                      <div class="testimonial-footer">
+                        <div class="testimonial-company">
+                          <i class="fas fa-book-open"></i>
+                          <span>Universidad de los Andes</span>
+                        </div>
+                        <div
+                          class="testimonial-rating"
+                          itemprop="reviewRating"
+                          itemscope
+                          itemtype="https://schema.org/Rating"
+                        >
+                          <meta itemprop="worstRating" content="1" />
+                          <meta itemprop="ratingValue" content="5" />
+                          <meta itemprop="bestRating" content="5" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <meta itemprop="datePublished" content="2024-06-25" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust Badge Bottom -->
+        <div
+          class="testimonials-trust"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="400"
+        >
+          <div class="trust-item">
+            <i class="fas fa-shield-check"></i>
+            <span
+              ><strong>100% verificados</strong> - Testimonios reales de
+              clientes satisfechos</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+ FOOTER - DISEÑO MODERNO CON FONDO OSCURO
+ ========================================== -->
+    <footer class="footer-section">
+      <div class="container">
+        <!-- Footer Main Content -->
+        <div class="row footer-main">
+          <!-- Column 1: Logo & About -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            <div class="footer-brand">
+              <img
+                src="./imagenes/logo.png"
+                alt="JHRoyett Research - Asesoría de Tesis"
+                class="footer-logo"
+              />
+              <p class="footer-description">
+                Más de 20 años transformando la investigación académica en
+                Colombia y Latinoamérica. Tu éxito es nuestra misión.
+              </p>
+
+              <!-- Stats Mini -->
+              <div class="footer-stats">
+                <div class="footer-stat-item">
+                  <span class="footer-stat-number">600+</span>
+                  <span class="footer-stat-label">Casos Exitosos</span>
+                </div>
+                <div class="footer-stat-item">
+                  <span class="footer-stat-number">24</span>
+                  <span class="footer-stat-label">Años</span>
+                </div>
+                <div class="footer-stat-item">
+                  <span class="footer-stat-number">4.53</span>
+                  <span class="footer-stat-label">Calificación</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div
+            class="col-lg-2 col-md-6 mb-4 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="100"
+          >
+            <div class="footer-links">
+              <h3 class="footer-title">Navegación</h3>
+              <ul class="footer-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#methodology">Metodología</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#agendar">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3: Services -->
+          <div
+            class="col-lg-3 col-md-6 mb-4 mb-lg-0"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="200"
+          >
+            <div class="footer-links">
+              <h3 class="footer-title">Servicios</h3>
+              <ul class="footer-menu">
+                <li><a href="#services">Tesis Doctoral</a></li>
+                <li><a href="#services">Tesis de Maestría</a></li>
+                <li><a href="#services">Especialización</a></li>
+                <li><a href="#services">Artículo Científico</a></li>
+                <li><a href="#services">Revisión de Tesis</a></li>
+                <li><a href="#services">Asesoría Metodológica</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 4: Contact Info -->
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="300"
+          >
+            <div class="footer-contact">
+              <h3 class="footer-title">Contacto</h3>
+
+              <div class="footer-contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Ubicaciones</strong>
+                  <p>Montería y Cartagena, Colombia</p>
+                </div>
+              </div>
+
+              <div class="footer-contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <p>
+                    <a href="mailto:contacto@jhroyett.com"
+                      >contacto@jhroyett.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="footer-contact-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <strong>Horario</strong>
+                  <p>Atención 24/7</p>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="footer-social">
+                <a
+                  href="#"
+                  target="_blank"
+                  title="Facebook"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  title="Twitter"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  title="LinkedIn"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  title="Instagram"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  title="WhatsApp"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div
+          class="footer-bottom"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="400"
+        >
+          <div class="footer-bottom-content">
+            <p class="footer-copyright">
+              &copy; 2025 <strong>JHRoyett Research</strong>. Todos los derechos
+              reservados.
+            </p>
+            <div class="footer-legal">
+              <a href="#">Política de Privacidad</a>
+              <span class="separator">|</span>
+              <a href="#">Términos y Condiciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Decorative Elements -->
+      <div class="footer-decoration footer-wave"></div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button
+      class="back-to-top"
+      id="backToTop"
+      title="Volver arriba"
+      aria-label="Volver arriba"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Original main.js -->
+    <script src="main.js"></script>
+
+    <script>
+      // Inicializar EmailJS con tu Public Key
+      (function () {
+        emailjs.init("B2yKZ8eRYM7QANaeM");
+        console.log("✅ EmailJS inicializado correctamente");
+      })();
+
+      // Manejar el envío del formulario
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const btn = this.querySelector(".btn-submit-form");
+          const btnText = btn.innerHTML;
+
+          // Deshabilitar el botón
+          btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
+          btn.disabled = true;
+
+          // Mostrar alerta de carga
+          Swal.fire({
+            title: "Enviando mensaje...",
+            html: "Por favor espera un momento",
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            didOpen: () => {
+              Swal.showLoading();
+            },
+          });
+
+          // Preparar los parámetros del template (DEBEN coincidir con las variables del template)
+          const templateParams = {
+            nombre: document.getElementById("nombre").value,
+            telefono: document.getElementById("telefono").value,
+            email: document.getElementById("email").value,
+            tipoNecesidad: document.getElementById("tipoNecesidad").value,
+            mensaje: document.getElementById("mensaje").value,
+          };
+
+          // Log para diagnóstico
+          console.log("📤 Enviando email con los siguientes datos:");
+          console.log("Service ID:", "service_vjiazbs");
+          console.log("Template ID:", "template_8n23xoh");
+          console.log("Parámetros:", templateParams);
+
+          // Enviar el email usando EmailJS
+          emailjs
+            .send("service_vjiazbs", "template_8n23xoh", templateParams)
+            .then(
+              function (response) {
+                console.log("✅ EMAIL ENVIADO EXITOSAMENTE!");
+                console.log("Status:", response.status);
+                console.log("Response:", response.text);
+
+                // Cerrar el loading y mostrar éxito
+                Swal.fire({
+                  icon: "success",
+                  title: "¡Mensaje Enviado!",
+                  html: `
+                    <div style="text-align: center;">
+                        <p style="font-size: 16px; color: #333; margin: 15px 0;">
+                            Gracias por contactarnos, <strong>${templateParams.nombre}</strong>.
+                        </p>
+                        <div style="background: #f0f7ff; padding: 15px; border-radius: 8px; margin: 15px 0;">
+                            <p style="font-size: 14px; color: #0066cc; margin: 5px 0;">
+                                ✉️ Te responderemos pronto a:<br>
+                                <strong>${templateParams.email}</strong>
+                            </p>
+                        </div>
+                        <p style="font-size: 13px; color: #666; margin-top: 15px;">
+                            Tiempo estimado de respuesta: 24-48 horas
+                        </p>
+                    </div>
+                `,
+                  confirmButtonText: "¡Perfecto!",
+                  confirmButtonColor: "#4CAF50",
+                  timer: 8000,
+                  timerProgressBar: true,
+                });
+
+                // Limpiar el formulario
+                document.getElementById("contactForm").reset();
+              },
+              function (error) {
+                console.error("❌ ERROR AL ENVIAR EMAIL");
+                console.error("Status:", error.status);
+                console.error("Text:", error.text);
+                console.error("Error completo:", error);
+
+                // Mostrar error al usuario
+                // En la parte del .then() donde muestras el éxito, reemplaza con esto:
+
+                Swal.fire({
+                  icon: "success",
+                  title: "¡Solicitud Recibida!",
+                  html: `
+        <div style="padding: 20px 10px;">
+            <p style="font-size: 17px; color: #2c3e50; margin: 20px 0 25px 0; line-height: 1.6;">
+                Estimado/a <strong style="color: #007bff;">${templateParams.nombre}</strong>,
+            </p>
+            <p style="font-size: 15px; color: #555; margin: 15px 0; line-height: 1.7;">
+                Hemos recibido tu solicitud de asesoría en <strong>${templateParams.tipoNecesidad}</strong> 
+                y apreciamos tu interés en nuestros servicios.
+            </p>
+            
+            <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+                        padding: 20px; 
+                        border-radius: 12px; 
+                        margin: 25px 0;
+                        box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
+                    <i class="fas fa-envelope" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
+                    <strong>Email de contacto:</strong><br>
+                    <span style="margin-left: 30px; color: #555;">${templateParams.email}</span>
+                </p>
+                <p style="font-size: 14px; color: #2c3e50; margin: 8px 0;">
+                    <i class="fas fa-phone" style="color: #007bff; margin-right: 10px; width: 20px;"></i>
+                    <strong>Teléfono:</strong><br>
+                    <span style="margin-left: 30px; color: #555;">${templateParams.telefono}</span>
+                </p>
+            </div>
+            
+            <div style="border-left: 4px solid #4CAF50; 
+                        background: #f0f9ff; 
+                        padding: 15px 20px; 
+                        margin: 20px 0;
+                        border-radius: 4px;">
+                <p style="font-size: 14px; color: #0066cc; margin: 0; line-height: 1.6;">
+                    <i class="fas fa-clock" style="margin-right: 8px;"></i>
+                    <strong>Tiempo de respuesta:</strong> 24-48 horas hábiles
+                </p>
+            </div>
+            
+            <p style="font-size: 13px; color: #7f8c8d; margin-top: 25px; line-height: 1.5;">
+                Nuestro equipo revisará tu solicitud y te contactará a la brevedad posible 
+                para brindarte la asesoría personalizada que necesitas.
+            </p>
+        </div>
+    `,
+                  confirmButtonText:
+                    '<i class="fas fa-check-circle"></i> Entendido',
+                  confirmButtonColor: "#4CAF50",
+                  width: "600px",
+                  padding: "2em",
+                  backdrop: `
+        rgba(0,119,182,0.05)
+        left top
+        no-repeat
+    `,
+                  customClass: {
+                    popup: "swal-professional",
+                    title: "swal-title-professional",
+                    confirmButton: "swal-button-professional",
+                  },
+                  showClass: {
+                    popup:
+                      "animate__animated animate__fadeInDown animate__faster",
+                  },
+                  hideClass: {
+                    popup:
+                      "animate__animated animate__fadeOutUp animate__faster",
+                  },
+                });
+              }
+            )
+            .finally(function () {
+              // Restaurar el botón
+              btn.innerHTML = btnText;
+              btn.disabled = false;
+            });
+        });
+    </script>
+
+    <!-- JavaScript para inicializar Swiper (agregar antes del cierre de </body>) -->
+    <script>
+      // Inicializar Swiper de Problemas (3D Effect)
+      const problemsSwiper = new Swiper(".problems-swiper-3d", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 15,
+          stretch: 0,
+          depth: 300,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        pagination: {
+          el: ".problems-swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".problems-swiper-button-next",
+          prevEl: ".problems-swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            coverflowEffect: {
+              rotate: 10,
+              depth: 200,
+            },
+          },
+          768: {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

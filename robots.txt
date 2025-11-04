@@ -1,0 +1,18 @@
+# robots.txt para JHRoyett Research
+# Asesoría de Tesis en Montería y Cartagena
+
+User-agent: *
+Allow: /
+
+# Bloquear acceso a carpetas administrativas (si las tienes)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Permitir rastreo de recursos importantes
+Allow: /imagenes/
+Allow: /styles.css
+Allow: /main.js
+
+# Sitemap
+Sitemap: https://jhroyettresearch.com/sitemap.xml
