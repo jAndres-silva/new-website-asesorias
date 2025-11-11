@@ -471,6 +471,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
+        "@id": "https://jhroyettresearch.com/#organization",
         "name": "JHRoyett Research",
         "url": "https://jhroyettresearch.com",
         "logo": "https://jhroyettresearch.com/imagenes/Logo.png",
@@ -491,7 +492,8 @@
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
-              "bestRating": "5"
+              "bestRating": "5",
+              "worstRating": "1"
             },
             "reviewBody": "¡Mi tesis fue todo un éxito! Gracias por tu profesionalismo y compromiso. Mi experiencia 10 de 10.",
             "datePublished": "2024-11-15"
@@ -505,7 +507,8 @@
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
-              "bestRating": "5"
+              "bestRating": "5",
+              "worstRating": "1"
             },
             "reviewBody": "Me sentía perdida hasta que me ayudaste con tu metodología. Logré terminar mi tesis a tiempo, todo súper claro. ¡Recomendadísimo!",
             "datePublished": "2024-10-20"
@@ -519,7 +522,8 @@
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
-              "bestRating": "5"
+              "bestRating": "5",
+              "worstRating": "1"
             },
             "reviewBody": "Después de meses estancado, el acompañamiento fue transformador. Finalicé mi doctorado con honores. Totalmente recomendado.",
             "datePublished": "2024-09-10"
@@ -533,7 +537,8 @@
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
-              "bestRating": "5"
+              "bestRating": "5",
+              "worstRating": "1"
             },
             "reviewBody": "El artículo científico salió excelente. Muchas gracias por su apoyo y dedicación. Me da mucha satisfacción compartir este logro.",
             "datePublished": "2024-08-05"
@@ -547,7 +552,8 @@
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
-              "bestRating": "5"
+              "bestRating": "5",
+              "worstRating": "1"
             },
             "reviewBody": "Gracias por su ayuda, no tiene idea de lo valioso que fue para mí. Ya recibieron mi trabajo y lo van a validar. ¡Totalmente recomendable!",
             "datePublished": "2024-07-18"
@@ -561,7 +567,8 @@
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
-              "bestRating": "5"
+              "bestRating": "5",
+              "worstRating": "1"
             },
             "reviewBody": "¡Fue excelentísimo! Obtuve 96.5 de nota. Valoro muchísimo tu ayuda para mi entrega. Muchas gracias por todo.",
             "datePublished": "2024-06-25"
@@ -2250,7 +2257,6 @@
             data-aos-duration="800"
             data-aos-delay="200"
           >
-            <!-- Navegación personalizada -->
             <div class="testimonial-navigation">
               <button
                 class="testimonial-nav-btn testimonial-prev"
@@ -2281,32 +2287,37 @@
         >
           <div class="swiper testimonials-swiper">
             <div class="swiper-wrapper">
-              <!-- Testimonial Slide 1 - YA ESTABA BIEN -->
+              <!-- Testimonial 1 -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
                   itemscope
                   itemtype="https://schema.org/Review"
                 >
+                  <!-- Servicio Revisado -->
+                  <div
+                    itemprop="itemReviewed"
+                    itemscope
+                    itemtype="https://schema.org/LocalBusiness"
+                  >
+                    <meta itemprop="name" content="JHRoyett Research" />
+                    <meta
+                      itemprop="image"
+                      content="https://www.jhroyettresearch.com/imagenes/logo.png"
+                    />
+                    <link
+                      itemprop="url"
+                      href="https://www.jhroyettresearch.com"
+                    />
+                  </div>
+
                   <div class="testimonial-content">
                     <div class="testimonial-info">
-                      <div
-                        itemprop="itemReviewed"
-                        itemscope
-                        itemtype="https://schema.org/Service"
-                      >
-                        <meta
-                          itemprop="name"
-                          content="JHRoyett Research - Asesoría de Tesis Doctoral"
-                        />
-                      </div>
-
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-1.webp"
                           alt="María C. - Testimonio Maestría en Educación"
                           loading="lazy"
-                          itemprop="image"
                         />
                       </div>
 
@@ -2352,32 +2363,36 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 2 - ACORTADO -->
+              <!-- Testimonial 2 -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
                   itemscope
                   itemtype="https://schema.org/Review"
                 >
+                  <div
+                    itemprop="itemReviewed"
+                    itemscope
+                    itemtype="https://schema.org/LocalBusiness"
+                  >
+                    <meta itemprop="name" content="JHRoyett Research" />
+                    <meta
+                      itemprop="image"
+                      content="https://www.jhroyettresearch.com/imagenes/logo.png"
+                    />
+                    <link
+                      itemprop="url"
+                      href="https://www.jhroyettresearch.com"
+                    />
+                  </div>
+
                   <div class="testimonial-content">
                     <div class="testimonial-info">
-                      <div
-                        itemprop="itemReviewed"
-                        itemscope
-                        itemtype="https://schema.org/Service"
-                      >
-                        <meta
-                          itemprop="name"
-                          content="JHRoyett Research - Asesoría de Tesis de Maestría"
-                        />
-                      </div>
-
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-2.webp"
-                          alt="Carolina - Testimonio Licenciatura en Psicología"
+                          alt="Carolina Gomez - Testimonio Doctorado"
                           loading="lazy"
-                          itemprop="image"
                         />
                       </div>
 
@@ -2424,32 +2439,36 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 3 - YA ESTABA BIEN -->
+              <!-- Testimonial 3 -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
                   itemscope
                   itemtype="https://schema.org/Review"
                 >
+                  <div
+                    itemprop="itemReviewed"
+                    itemscope
+                    itemtype="https://schema.org/LocalBusiness"
+                  >
+                    <meta itemprop="name" content="JHRoyett Research" />
+                    <meta
+                      itemprop="image"
+                      content="https://www.jhroyettresearch.com/imagenes/logo.png"
+                    />
+                    <link
+                      itemprop="url"
+                      href="https://www.jhroyettresearch.com"
+                    />
+                  </div>
+
                   <div class="testimonial-content">
                     <div class="testimonial-info">
-                      <div
-                        itemprop="itemReviewed"
-                        itemscope
-                        itemtype="https://schema.org/Service"
-                      >
-                        <meta
-                          itemprop="name"
-                          content="JHRoyett Research - Asesoría de Tesis Doctoral"
-                        />
-                      </div>
-
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-3.webp"
-                          alt="Ana Martínez - Testimonio Doctorado"
+                          alt="Mario Lopez - Testimonio Doctorado"
                           loading="lazy"
-                          itemprop="image"
                         />
                       </div>
 
@@ -2498,32 +2517,36 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 4 - ACORTADO Y MEJORADO -->
+              <!-- Testimonial 4 -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
                   itemscope
                   itemtype="https://schema.org/Review"
                 >
+                  <div
+                    itemprop="itemReviewed"
+                    itemscope
+                    itemtype="https://schema.org/LocalBusiness"
+                  >
+                    <meta itemprop="name" content="JHRoyett Research" />
+                    <meta
+                      itemprop="image"
+                      content="https://www.jhroyettresearch.com/imagenes/logo.png"
+                    />
+                    <link
+                      itemprop="url"
+                      href="https://www.jhroyettresearch.com"
+                    />
+                  </div>
+
                   <div class="testimonial-content">
                     <div class="testimonial-info">
-                      <div
-                        itemprop="itemReviewed"
-                        itemscope
-                        itemtype="https://schema.org/Service"
-                      >
-                        <meta
-                          itemprop="name"
-                          content="JHRoyett Research - Asesoría de Tesis de Maestría"
-                        />
-                      </div>
-
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-4.webp"
                           alt="Roberto Jiménez - Testimonio Artículo Científico"
                           loading="lazy"
-                          itemprop="image"
                         />
                       </div>
 
@@ -2570,32 +2593,36 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 5 - ACORTADO Y MEJORADO -->
+              <!-- Testimonial 5 -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
                   itemscope
                   itemtype="https://schema.org/Review"
                 >
+                  <div
+                    itemprop="itemReviewed"
+                    itemscope
+                    itemtype="https://schema.org/LocalBusiness"
+                  >
+                    <meta itemprop="name" content="JHRoyett Research" />
+                    <meta
+                      itemprop="image"
+                      content="https://www.jhroyettresearch.com/imagenes/logo.png"
+                    />
+                    <link
+                      itemprop="url"
+                      href="https://www.jhroyettresearch.com"
+                    />
+                  </div>
+
                   <div class="testimonial-content">
                     <div class="testimonial-info">
-                      <div
-                        itemprop="itemReviewed"
-                        itemscope
-                        itemtype="https://schema.org/Service"
-                      >
-                        <meta
-                          itemprop="name"
-                          content="JHRoyett Research - Asesoría de Especialización"
-                        />
-                      </div>
-
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-5.webp"
-                          alt="Laura Sánchez - Testimonio Trabajo de Grado"
+                          alt="Laura Sánchez - Testimonio Maestría"
                           loading="lazy"
-                          itemprop="image"
                         />
                       </div>
 
@@ -2644,32 +2671,36 @@
                 </div>
               </div>
 
-              <!-- Testimonial Slide 6 - MEJORADO CON RESULTADO -->
+              <!-- Testimonial 6 -->
               <div class="swiper-slide">
                 <div
                   class="testimonial-card"
                   itemscope
                   itemtype="https://schema.org/Review"
                 >
+                  <div
+                    itemprop="itemReviewed"
+                    itemscope
+                    itemtype="https://schema.org/LocalBusiness"
+                  >
+                    <meta itemprop="name" content="JHRoyett Research" />
+                    <meta
+                      itemprop="image"
+                      content="https://www.jhroyettresearch.com/imagenes/logo.png"
+                    />
+                    <link
+                      itemprop="url"
+                      href="https://www.jhroyettresearch.com"
+                    />
+                  </div>
+
                   <div class="testimonial-content">
                     <div class="testimonial-info">
-                      <div
-                        itemprop="itemReviewed"
-                        itemscope
-                        itemtype="https://schema.org/Service"
-                      >
-                        <meta
-                          itemprop="name"
-                          content="JHRoyett Research - Publicación de Artículos Científicos"
-                        />
-                      </div>
-
                       <div class="testimonial-image-circular">
                         <img
                           src="./imagenes/test-6.webp"
-                          alt="Jorge Ramírez - Testimonio Sustentación de Tesis"
+                          alt="Jorge Ramírez - Testimonio Sustentación"
                           loading="lazy"
-                          itemprop="image"
                         />
                       </div>
 
